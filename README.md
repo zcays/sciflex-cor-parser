@@ -8,7 +8,7 @@ correction attributes, and preserves unknown `label=value` entries in
 ## Install
 
 ```bash
-pip install git+https://github.com/zcays/sciflex-cor-parser.git
+python3 -m pip install git+https://github.com/zcays/sciflex-cor-parser.git
 ```
 
 ## Use
