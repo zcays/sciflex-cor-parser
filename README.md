@@ -19,8 +19,13 @@ from sciflex_cor_parser import CorFile
 filename = "/path/to/example.cor"
 cor_data = CorFile.from_file(filename)
 
+# Print the full report
 cor_data.print_attributes()
+```
 
+### Access specific attributes
+
+```python
 print(cor_data.speed)
 print(cor_data.deviation)
 print(cor_data.well_number)
