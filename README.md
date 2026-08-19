@@ -7,10 +7,8 @@ correction attributes, and preserves unknown `label=value` entries in
 
 ## Install
 
-Download the wheel from the GitHub release, then run:
-
 ```bash
-python3 -m pip install sciflex_cor_parser-0.1.0-py3-none-any.whl
+pip install git+https://github.com/zcays/sciflex-cor-parser.git
 ```
 
 ## Use
